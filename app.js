@@ -16,7 +16,7 @@ for (let countCycles = 1; countCycles <= village; countCycles++) {
 
 	randomNum = Math.round((Math.random() * 100 + 20) / 100 * 20);
 
-	if (randomNum > 15) {
+	if (randomNum < 15) {
 		// console.log(randomNum); //uncomment if you want to see that randomizer filters numbers less than 15
 		sum += randomNum;
 	}
